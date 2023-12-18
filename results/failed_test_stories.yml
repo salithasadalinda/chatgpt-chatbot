@@ -1,0 +1,22 @@
+version: "3.1"
+stories:
+- story: Happy path - Asking about a product (.\tests\test_stories.yml)
+  steps:
+  - intent: greeting
+  - action: utter_greeting  # predicted: utter_happy
+  - intent: product_details_breaf
+  - action: utter_product_details_breaf  # predicted: utter_happy
+  - intent: product_info
+    entities:
+    - product: smartphones
+  - action: utter_product_info  # predicted: utter_happy
+  - intent: chat_end
+  - action: utter_chat_end  # predicted: utter_happy
+- story: Happy path - Ending the conversation (.\tests\test_stories.yml)
+  steps:
+  - intent: greeting
+  - action: utter_greeting  # predicted: utter_happy
+  - intent: product_details_breaf
+  - action: utter_product_details_breaf  # predicted: utter_happy
+  - intent: chat_end
+  - action: utter_chat_end  # predicted: utter_happy

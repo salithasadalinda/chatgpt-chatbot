@@ -1,0 +1,30 @@
+version: "3.1"
+nlu:
+- intent: greeting
+  examples: |
+    - Hi
+    - Hello
+    - Hey
+
+- intent: product_details_breaf
+  examples: |
+    - what kind of products do you have?
+    - which product do you have?
+    - what kind of products do you have
+
+- intent: product_info
+  examples: |
+    - Tell me about [smartphones](product)
+    - What is [laptop](product)
+    - Give me information about [gaming consoles](product)
+    - Can you tell me more about [cameras](product)?
+    - Describe [smartwatch](product) for me
+    - What's the deal with [headphones](product)?
+    - Share details about [tablets](product)
+    - I'm interested in [printers](product). Tell me about them.
+
+- intent: chat_end
+  examples: |
+    - bye!
+    - bye
+    - BYE

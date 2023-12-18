@@ -1,0 +1,29 @@
+version: "3.1"
+intents:
+  - greeting
+  - product_details_breaf
+  - product_info
+  - chat_end
+
+entities:
+  - product
+
+responses:
+  utter_greeting:
+    - text: "Hello! I can help you with product suggestions."
+
+  utter_product_details_breaf:
+    - text: |
+        I can provide information about various products in the following categories: 'Gaming Consoles and Accessories', 'Televisions and Home Theater Systems', 'Smartphones and Accessories', 'Cameras and Camcorders', 'Computers and Laptops', and 'Audio Equipment'. You can ask me about the features, prices, and other details of the products in these categories.
+
+  utter_product_info:
+    - text: "{product} is priced at ${product_price}."
+
+  utter_chat_end:
+    - text: "Bye! See you again!"
+
+actions:
+- utter_greeting
+- utter_product_details_breaf
+- utter_product_info
+- utter_chat_end

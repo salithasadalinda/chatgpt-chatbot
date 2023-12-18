@@ -1,0 +1,138 @@
+[
+  {
+    "text": "Hi",
+    "intent": "greeting",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9999868869781494
+    }
+  },
+  {
+    "text": "Hello",
+    "intent": "greeting",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.999996542930603
+    }
+  },
+  {
+    "text": "Hey",
+    "intent": "greeting",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9999969005584717
+    }
+  },
+  {
+    "text": "what kind of products do you have?",
+    "intent": "product_details_breaf",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.7651149034500122
+    }
+  },
+  {
+    "text": "which product do you have?",
+    "intent": "product_details_breaf",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.9995471835136414
+    }
+  },
+  {
+    "text": "what kind of products do you have",
+    "intent": "product_details_breaf",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.7651149034500122
+    }
+  },
+  {
+    "text": "Tell me about smartphones",
+    "intent": "product_info",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.9721173048019409
+    }
+  },
+  {
+    "text": "What is laptop",
+    "intent": "product_info",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.5959024429321289
+    }
+  },
+  {
+    "text": "Give me information about gaming consoles",
+    "intent": "product_info",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.6456432938575745
+    }
+  },
+  {
+    "text": "Can you tell me more about cameras?",
+    "intent": "product_info",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.8021337985992432
+    }
+  },
+  {
+    "text": "Describe smartwatch for me",
+    "intent": "product_info",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.5478580594062805
+    }
+  },
+  {
+    "text": "What's the deal with headphones?",
+    "intent": "product_info",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.5891269445419312
+    }
+  },
+  {
+    "text": "Share details about tablets",
+    "intent": "product_info",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.9196268320083618
+    }
+  },
+  {
+    "text": "I'm interested in printers. Tell me about them.",
+    "intent": "product_info",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.9413102865219116
+    }
+  },
+  {
+    "text": "bye!",
+    "intent": "chat_end",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.9999971389770508
+    }
+  },
+  {
+    "text": "bye",
+    "intent": "chat_end",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.9999971389770508
+    }
+  },
+  {
+    "text": "BYE",
+    "intent": "chat_end",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.9999969005584717
+    }
+  }
+]

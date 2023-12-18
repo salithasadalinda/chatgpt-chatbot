@@ -1,0 +1,6 @@
+version: "3.1"
+rules:
+- rule: Follow up on product_info
+  steps:
+  - intent: product_info
+  - action: utter_product_info

@@ -1,0 +1,27 @@
+version: "3.1"
+
+
+stories:
+- story: Happy path - Asking about a product
+  steps:
+  - intent: greeting
+  - action: utter_greeting
+
+  - intent: product_details_breaf
+  - action: utter_product_details_breaf
+
+  - intent: product_info
+    entities:
+    - product: "smartphones"
+  - action: utter_product_info
+
+- story: Happy path - Ending the conversation
+  steps:
+  - intent: greeting
+  - action: utter_greeting
+
+  - intent: product_details_breaf
+  - action: utter_product_details_breaf
+
+  - intent: chat_end
+  - action: utter_chat_end

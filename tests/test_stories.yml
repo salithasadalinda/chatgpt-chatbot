@@ -1,0 +1,30 @@
+#### This file contains tests to evaluate that your bot behaves as expected.
+#### If you want to learn more, please see the docs: https://rasa.com/docs/rasa/testing-your-assistant
+
+stories:
+- story: Happy path - Asking about a product
+  steps:
+  - intent: greeting
+  - action: utter_greeting
+
+  - intent: product_details_breaf
+  - action: utter_product_details_breaf
+
+  - intent: product_info
+    entities:
+    - product: "smartphones"
+  - action: utter_product_info
+
+  - intent: chat_end
+  - action: utter_chat_end
+
+- story: Happy path - Ending the conversation
+  steps:
+  - intent: greeting
+  - action: utter_greeting
+
+  - intent: product_details_breaf
+  - action: utter_product_details_breaf
+
+  - intent: chat_end
+  - action: utter_chat_end
